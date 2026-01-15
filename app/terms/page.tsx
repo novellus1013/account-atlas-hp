@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
-import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { siteConfig } from "@/lib/content"
 import { Button } from "@/components/ui/button"
@@ -17,7 +16,6 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <>
-      <Header />
       <main className="py-16 sm:py-20">
         <article className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <Button asChild variant="ghost" className="mb-8 gap-2 text-muted-foreground hover:text-foreground">
