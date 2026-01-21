@@ -22,7 +22,7 @@ export function ScreenshotGallery() {
     <div className="relative">
       {/* Mobile Carousel */}
       <div className="lg:hidden">
-        <div className="relative aspect-[9/16] max-w-[280px] mx-auto overflow-hidden rounded-3xl border border-border bg-muted shadow-2xl">
+        <div className="relative aspect-[9/18] max-w-[280px] mx-auto overflow-hidden rounded-3xl border border-border bg-muted shadow-2xl">
           <Image
             src={screenshots[activeIndex].src || "/placeholder.svg"}
             alt={screenshots[activeIndex].alt}
@@ -80,7 +80,7 @@ export function ScreenshotGallery() {
           <div
             key={index}
             className={cn(
-              "relative aspect-[9/16] overflow-hidden rounded-2xl border border-border bg-muted shadow-lg transition-transform hover:scale-[1.02]",
+              "relative aspect-[9/18] overflow-hidden rounded-2xl border border-border bg-muted shadow-lg transition-transform hover:scale-[1.02]",
               index === 0 && "lg:col-span-1 lg:row-span-1",
             )}
           >

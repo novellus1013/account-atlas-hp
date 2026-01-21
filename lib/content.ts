@@ -26,23 +26,19 @@ export const heroContent = {
 
 export const screenshots = [
   {
-    src: "/mobile-app-home-monthly-overview-dark.jpg",
+    src: "/images/home1.png",
     alt: "Home dashboard showing monthly and yearly spending totals, top expense categories, upcoming payments, and subscription count",
   },
   {
-    src: "/mobile-app-accounts-list.jpg",
-    alt: "Accounts list with email, phone, and social login identifiers, service count per account, and monthly spending by account",
-  },
-  {
-    src: "/mobile-app-services-filter-search.jpg",
+    src: "/images/account-detail.png",
     alt: "Services list with filters for category, sort order, and subscription status, plus spending totals",
   },
   {
-    src: "/mobile-app-service-detail.jpg",
+    src: "/images/services.png",
     alt: "Service detail showing linked account, login type, next payment date, monthly and yearly costs",
   },
   {
-    src: "/mobile-app-settings.jpg",
+    src: "/images/service-detail-1.png",
     alt: "Settings screen",
   },
 ]

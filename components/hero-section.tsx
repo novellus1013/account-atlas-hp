@@ -32,9 +32,9 @@ export function HeroSection() {
           </div>
 
           {/* Screenshot Gallery */}
-          {/* <div className="relative">
+          <div className="relative">
             <ScreenshotGallery />
-          </div> */}
+          </div>
         </div>
       </div>
 

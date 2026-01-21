@@ -23,7 +23,7 @@ export function DownloadSection() {
             aria-label="Download on the App Store"
           >
             <Image
-              src="/appstore.png"
+              src="/images/appstore.png"
               alt="Download on the App Store"
               width={240}
               height={80}
@@ -41,7 +41,7 @@ export function DownloadSection() {
             aria-label="Get it on Google Play"
           >
             <Image
-              src="/playstore.png"
+              src="/images/playstore.png"
               alt="Get it on Google Play"
               width={240}
               height={80}
