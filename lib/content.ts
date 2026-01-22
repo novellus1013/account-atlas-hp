@@ -26,20 +26,20 @@ export const heroContent = {
 
 export const screenshots = [
   {
-    src: "/images/home1.png",
+    src: "/images/home-1.png",
     alt: "Home dashboard showing monthly and yearly spending totals, top expense categories, upcoming payments, and subscription count",
   },
   {
     src: "/images/account-detail.png",
-    alt: "Services list with filters for category, sort order, and subscription status, plus spending totals",
+    alt: "Account detail showing linked service include Subscription and Free, monthly costs",
   },
   {
     src: "/images/services.png",
-    alt: "Service detail showing linked account, login type, next payment date, monthly and yearly costs",
+    alt: "Services list with filters for category, sort order, and subscription status, plus spending totals",
   },
   {
-    src: "/images/service-detail-1.png",
-    alt: "Settings screen",
+    src: "/images/service-detail.png",
+    alt: "Service detail showing linked account, login type, next payment date, monthly and yearly costs",
   },
 ]
 
