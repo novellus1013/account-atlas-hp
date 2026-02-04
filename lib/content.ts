@@ -2,16 +2,16 @@
 // Based on Option 2 tone: Problem Recognition → Solution → Complete Clarity
 
 export const siteConfig = {
-  appName: "AccountAtlas",
+  appName: "Account Atlas",
   tagline: "Your Accounts, Your Services, One Place",
   description:
-    "Juggling multiple emails, phone numbers, and social accounts across dozens of services? AccountAtlas brings it all together. Register your accounts once, connect them to your services, and see everything at a glance—no bank connections, just complete clarity.",
+    "Juggling multiple emails, phone numbers, and social accounts across dozens of services? Account Atlas brings it all together. Register your accounts once, connect them to your services, and see everything at a glance—no bank connections, just complete clarity.",
   url: "https://accountatlas.app",
   contactEmail: "noveluslab@proton.me",
   copyright: `© ${new Date().getFullYear()} AccountAtlas. All rights reserved.`,
   storeLinks: {
-    appStore: "https://apps.apple.com/app/accountatlas",
-    playStore: "https://play.google.com/store/apps/details?id=com.accountatlas",
+    appStore: "https://apps.apple.com/us/app/account-atlas-track-accounts/id6758081039",
+    playStore: "https://play.google.com/store/apps/details?id=co.novelus.accountatlas",
   },
   availabilityNote: "Available on iOS and Android",
 }
@@ -45,7 +45,7 @@ export const screenshots = [
 
 export const aboutContent = {
   intro: {
-    title: "About AccountAtlas",
+    title: "About Account Atlas",
     description: [
       "Juggling multiple emails, phone numbers, and social accounts across dozens of services? Not sure which login belongs to which subscription—or when the next payment hits?",
       "AccountAtlas brings it all together. Register your accounts, connect them to your services, and see everything organized clearly. No bank connections needed—you stay in control of your data.",
@@ -92,20 +92,20 @@ export const reviews = [
   {
     name: "Coming Soon",
     rating: 5,
-    quote: "Be the first to share your AccountAtlas experience. We'd love to hear from you!",
+    quote: "Be the first to share your Account Atlas experience. We'd love to hear from you!",
   },
 ]
 
 export const faqItems = [
   {
-    question: "Do I need an account or login to use AccountAtlas?",
+    question: "Do I need an account or login to use Account Atlas?",
     answer:
       "No. Core features work without sign-up. Your data is stored locally on your device. Login and additional features may be added later.",
   },
   {
     question: "Do I need to link my bank or financial accounts?",
     answer:
-      "No. AccountAtlas does not connect to your bank, cards, or transactions. You manually register the services and accounts you want to organize.",
+      "No. Account Atlas does not connect to your bank, cards, or transactions. You manually register the services and accounts you want to organize.",
   },
   {
     question: "What does the Home screen show?",
