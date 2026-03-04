@@ -7,7 +7,7 @@ export const siteConfig = {
   description:
     "Juggling multiple emails, phone numbers, and social accounts across dozens of services? Account Atlas brings it all together. Register your accounts once, connect them to your services, and see everything at a glance—no bank connections, just complete clarity.",
   url: "https://accountatlas.app",
-  contactEmail: "noveluslab@proton.me",
+  contactEmail: "support@account-atals.novelus.dev",
   copyright: `© ${new Date().getFullYear()} AccountAtlas. All rights reserved.`,
   storeLinks: {
     appStore: "https://apps.apple.com/us/app/account-atlas-track-accounts/id6758081039",

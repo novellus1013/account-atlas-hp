@@ -171,8 +171,8 @@ export default function PrivacyPage() {
               <p className="mt-3 leading-relaxed text-muted-foreground">
                 If you have any questions regarding privacy while using the Application, or have questions about the
                 practices, please contact the Service Provider via email at{" "}
-                <a href="mailto:noveluslab@proton.me" className="text-primary underline hover:no-underline">
-                  noveluslab@proton.me
+                <a href="mailto:support@account-atals.novelus.dev" className="text-primary underline hover:no-underline">
+                  support@account-atals.novelus.dev
                 </a>
                 .
               </p>

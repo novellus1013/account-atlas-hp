@@ -154,8 +154,8 @@ export default function TermsPage() {
               <p className="mt-3 leading-relaxed text-muted-foreground">
                 If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to
                 contact the Service Provider at{" "}
-                <a href="mailto:noveluslab@proton.me" className="text-primary underline hover:no-underline">
-                  noveluslab@proton.me
+                <a href="mailto:support@account-atals.novelus.dev" className="text-primary underline hover:no-underline">
+                  support@account-atals.novelus.dev
                 </a>
               </p>
             </section>
