@@ -4,6 +4,8 @@ import { ArrowLeft } from "lucide-react"
 import { Footer } from "@/components/footer"
 import { siteConfig } from "@/lib/content"
 import { Button } from "@/components/ui/button"
+import { headers } from 'next/headers'
+import { getEmailUrl } from '@/lib/utils'
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -15,7 +17,12 @@ export const metadata: Metadata = {
 
 
 
-export default function PrivacyPage() {
+export default async function PrivacyPage() {
+  const headersList = await headers()
+  const acceptLanguage = headersList.get('accept-language') ?? 'en'
+  const locale = acceptLanguage.startsWith('ko') ? 'ko' : 'en'
+
+  const supportEmailUrl = getEmailUrl('support', siteConfig.appName, locale)
 
 
   return (
@@ -171,8 +178,8 @@ export default function PrivacyPage() {
               <p className="mt-3 leading-relaxed text-muted-foreground">
                 If you have any questions regarding privacy while using the Application, or have questions about the
                 practices, please contact the Service Provider via email at{" "}
-                <a href="mailto:support@account-atals.novelus.dev" className="text-primary underline hover:no-underline">
-                  support@account-atals.novelus.dev
+                <a href={supportEmailUrl} className="text-primary underline hover:no-underline">
+                  {siteConfig.supportEmail}
                 </a>
                 .
               </p>

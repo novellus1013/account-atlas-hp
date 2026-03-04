@@ -7,7 +7,8 @@ export const siteConfig = {
   description:
     "Juggling multiple emails, phone numbers, and social accounts across dozens of services? Account Atlas brings it all together. Register your accounts once, connect them to your services, and see everything at a glance—no bank connections, just complete clarity.",
   url: "https://accountatlas.app",
-  contactEmail: "support@account-atals.novelus.dev",
+  contactEmail: "contact@novelus.dev",
+  supportEmail: "support@novelus.dev",
   copyright: `© ${new Date().getFullYear()} AccountAtlas. All rights reserved.`,
   storeLinks: {
     appStore: "https://apps.apple.com/us/app/account-atlas-track-accounts/id6758081039",
@@ -130,7 +131,7 @@ export const faqItems = [
   {
     question: "How do I contact support?",
     answer:
-      "Email us at noveluslab@proton.me and include your device model and OS version if you can.",
+      `Email us at support@novelus.dev and include your device model and OS version if you can.`
   },
 ]
 
@@ -139,5 +140,3 @@ export const navItems = [
   { label: "About the App", href: "#about" },
   { label: "Download", href: "#download" },
 ]
-
-

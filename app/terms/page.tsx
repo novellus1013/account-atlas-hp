@@ -4,6 +4,8 @@ import { ArrowLeft } from "lucide-react"
 import { Footer } from "@/components/footer"
 import { siteConfig } from "@/lib/content"
 import { Button } from "@/components/ui/button"
+import { headers } from 'next/headers'
+import { getEmailUrl } from '@/lib/utils'
 
 export const metadata: Metadata = {
   title: "Terms & Conditions",
@@ -13,7 +15,14 @@ export const metadata: Metadata = {
   },
 }
 
-export default function TermsPage() {
+export default async function TermsPage() {
+  const headersList = await headers()
+  const acceptLanguage = headersList.get('accept-language') ?? 'en'
+  const locale = acceptLanguage.startsWith('ko') ? 'ko' : 'en'
+
+  const supportEmailUrl = getEmailUrl('support', siteConfig.appName, locale)
+
+
   return (
     <>
       <main className="py-16 sm:py-20">
@@ -154,8 +163,8 @@ export default function TermsPage() {
               <p className="mt-3 leading-relaxed text-muted-foreground">
                 If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to
                 contact the Service Provider at{" "}
-                <a href="mailto:support@account-atals.novelus.dev" className="text-primary underline hover:no-underline">
-                  support@account-atals.novelus.dev
+                <a href={supportEmailUrl} className="text-primary underline hover:no-underline">
+                  {siteConfig.supportEmail}
                 </a>
               </p>
             </section>
